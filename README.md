@@ -1,5 +1,5 @@
 # TXT-ED
-My attempt at creating a text editor from scratch using C.
+My attempt at creating a new version of a Kilo text editor.
 
 # About
 This project involves me following a tutorial recreating the Kilo text editor and using what I learned to personalize and innovate it.
