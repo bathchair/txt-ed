@@ -8,7 +8,7 @@ This project involves me following a tutorial recreating the Kilo text editor an
 Work in progress!
 
 # Progress
-- Chapter 4/8 of tutorial completed
+- Chapter 5/8 of tutorial completed
 
 # Goals
 - Incorporate a color scheme
