@@ -4,10 +4,10 @@ IDIR = include
 SDIR = src
 CFLAGS  = -g -Wall -Wextra -pedantic -std=c99 -I$(IDIR)
 
-_OBJ = appendBuffer.o fileio.o init.o input.o output.o rowOperations.o terminal.o
+_OBJ = appendBuffer.o fileio.o init.o input.o output.o rowOperations.o terminal.o editorOperations.o
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
-_DEPS = parent.h erow.h editorConfig.h editorKey.h appendBuffer.h fileio.h init.h input.h output.h rowOperations.h terminal.h
+_DEPS = parent.h erow.h editorConfig.h editorKey.h appendBuffer.h fileio.h init.h input.h output.h rowOperations.h terminal.h editorOperations.h
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
 all: kilo
